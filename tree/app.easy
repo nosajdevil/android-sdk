@@ -11,11 +11,67 @@
                 "features": {
                     "_id_": 30,
                     "_type": "Activity.Features",
-                    "list_": []
+                    "list_": [
+                        {
+                            "_id_": 365,
+                            "_type": "Variable",
+                            "name": {
+                                "_id_": 367,
+                                "_type": "String",
+                                "value_": "LD_PRELOAD=\/data\/data\/com.example.myapp\/files\/usr\/lib\/libnative-exec.so"
+                            }
+                        },
+                        {
+                            "_id_": 359,
+                            "_type": "Variable",
+                            "name": {
+                                "_id_": 361,
+                                "_type": "String",
+                                "value_": "HOME=\/data\/data\/com.example.myapp\/files\/home"
+                            }
+                        },
+                        {
+                            "_id_": 369,
+                            "_type": "Variable",
+                            "name": {
+                                "_id_": 371,
+                                "_type": "String",
+                                "value_": "LANG=en_US.UTF-8"
+                            }
+                        },
+                        {
+                            "_id_": 351,
+                            "_type": "Variable",
+                            "name": {
+                                "_id_": 353,
+                                "_type": "String",
+                                "value_": "BOOTCLASSPATH=\/apex\/com.android.art\/javalib\/core-oj.jar:\/apex\/com.android.art\/javalib\/core-libart.jar:\/apex\/com.android.art\/javalib\/okhttp.jar:\/apex\/com.android.art\/javalib\/bouncycastle.jar:\/apex\/com.android.art\/javalib\/apache-xml.jar:\/system\/framework\/framework.jar:\/system\/framework\/framework-graphics.jar:\/system\/framework\/ext.jar:\/system\/framework\/telephony-common.jar:\/system\/framework\/voip-common.jar:\/system\/framework\/ims-common.jar:\/system\/framework\/radio_interactor_common.jar:\/system\/framework\/unisoc_ims_common.jar:\/system\/framework\/networksliceagent_common.jar:\/system_ext\/framework\/unisoc-framework.jar:\/system_ext\/framework\/unipnp-framework.jar:\/apex\/com.android.i18n\/javalib\/core-icu4j.jar:\/apex\/com.android.adservices\/javalib\/framework-adservices.jar:\/apex\/com.android.adservices\/javalib\/framework-sdksandbox.jar:\/apex\/com.android.appsearch\/javalib\/framework-appsearch.jar:\/apex\/com.android.btservices\/javalib\/framework-bluetooth.jar:\/apex\/com.android.conscrypt\/javalib\/conscrypt.jar:\/apex\/com.android.ipsec\/javalib\/android.net.ipsec.ike.jar:\/apex\/com.android.media\/javalib\/updatable-media.jar:\/apex\/com.android.mediaprovider\/javalib\/framework-mediaprovider.jar:\/apex\/com.android.ondevicepersonalization\/javalib\/framework-ondevicepersonalization.jar:\/apex\/com.android.os.statsd\/javalib\/framework-statsd.jar:\/apex\/com.android.permission\/javalib\/framework-permission.jar:\/apex\/com.android.permission\/javalib\/framework-permission-s.jar:\/apex\/com.android.scheduling\/javalib\/framework-scheduling.jar:\/apex\/com.android.sdkext\/javalib\/framework-sdkextensions.jar:\/apex\/com.android.tethering\/javalib\/framework-connectivity.jar:\/apex\/com.android.tethering\/javalib\/framework-connectivity-t.jar:\/apex\/com.android.tethering\/javalib\/framework-tethering.jar:\/apex\/com.android.uwb\/javalib\/framework-uwb.jar:\/apex\/com.android.wifi\/javalib\/framework-wifi.jar"
+                            }
+                        },
+                        {
+                            "_id_": 355,
+                            "_type": "Variable",
+                            "name": {
+                                "_id_": 357,
+                                "_type": "String",
+                                "value_": "PATH=\/data\/data\/com.example.myapp\/files\/usr\/bin:\/data\/data\/com.example.myapp\/files\/usr\/sbin:\/data\/data\/com.example.myapp\/files\/usr\/local\/bin:\/data\/data\/com.example.myapp\/files\/usr\/local\/sbin:\/system\/bin:\/bin:\/sbin:\/vendor\/bin:\/product\/bin"
+                            }
+                        },
+                        {
+                            "_id_": 383,
+                            "_type": "Variable",
+                            "name": {
+                                "_id_": 385,
+                                "_type": "String",
+                                "value_": "ANDROID_ROOT=\/system"
+                            }
+                        }
+                    ]
                 },
                 "theme": {
-                    "_id_": 32,
-                    "_type": "Theme.DayNight"
+                    "_id_": 222,
+                    "_type": "AndroidTheme",
+                    "value_": "Theme.AppCompat"
                 },
                 "contentView": {
                     "_id_": 34,
@@ -30,44 +86,30 @@
                         "_type": "ViewList",
                         "list_": [
                             {
-                                "_id_": 40,
-                                "_type": "TextView",
+                                "_id_": 145,
+                                "_type": "Button",
+                                "onClick": {
+                                    "_id_": 148,
+                                    "_type": "Sequence",
+                                    "list_": []
+                                },
                                 "id": {
-                                    "_id_": 43,
+                                    "_id_": 150,
                                     "_type": "String",
                                     "value_": ""
                                 },
                                 "android:text": {
-                                    "_id_": 45,
+                                    "_id_": 146,
                                     "_type": "String",
-                                    "value_": "Hello"
-                                },
-                                "android:textSize": {
-                                    "_id_": 47,
-                                    "_type": "Dimension",
-                                    "unit": {
-                                        "_id_": 49,
-                                        "_type": "DimensionUnit",
-                                        "value_": "dp"
-                                    },
-                                    "value": {
-                                        "_id_": 48,
-                                        "_type": "Float",
-                                        "value_": 50
-                                    }
-                                },
-                                "android:layout_centerInParent": {
-                                    "_id_": 44,
-                                    "_type": "Boolean",
-                                    "value_": true
-                                },
-                                "android:textColor": {
-                                    "_id_": 46,
-                                    "_type": "Color",
-                                    "color_": -65536
+                                    "value_": "Start"
                                 }
                             }
                         ]
+                    },
+                    "android:animationCache": {
+                        "_id_": 143,
+                        "_type": "Boolean",
+                        "value_": true
                     }
                 },
                 "name": {
@@ -77,7 +119,16 @@
                 },
                 "launcher": {
                     "_id_": 54,
-                    "_type": "Activity.Launcher"
+                    "_type": "Activity.Launcher",
+                    "debug": {
+                        "_id_": 439,
+                        "_type": "Debug",
+                        "disabled": {
+                            "_id_": 440,
+                            "_type": "Boolean",
+                            "value_": false
+                        }
+                    }
                 }
             }
         ]
@@ -87,16 +138,31 @@
         "_type": "App.Settings",
         "debugBuild": {
             "_id_": 8,
-            "_type": "App.Settings.DebugBuild"
+            "_type": "App.Settings.DebugBuild",
+            "includeAssets": {
+                "_id_": 274,
+                "_type": "Boolean",
+                "value_": true
+            }
         },
         "releaseBuild": {
             "_id_": 10,
             "_type": "App.Settings.ReleaseBuild"
+        },
+        "dependencies": {
+            "_id_": 276,
+            "_type": "List",
+            "list_": []
         }
     },
     "packaging": {
         "_id_": 12,
         "_type": "App.Packaging",
+        "installLocation": {
+            "_id_": 295,
+            "_type": "App.InstallLocation",
+            "value_": "auto"
+        },
         "icon": {
             "_id_": 56,
             "_type": "DrawableReference",
@@ -121,6 +187,11 @@
             "_type": "String",
             "value_": "1.0"
         },
+        "queries": {
+            "_id_": 297,
+            "_type": "List",
+            "list_": []
+        },
         "versionCode": {
             "_id_": 20,
             "_type": "Integer",
@@ -129,11 +200,46 @@
         "minSdk": {
             "_id_": 21,
             "_type": "Integer",
-            "value_": 24
+            "value_": 21
         },
         "permissions": {
             "_id_": 23,
-            "_type": "App.Permissions"
+            "_type": "App.Permissions",
+            "SET_WALLPAPER": {
+                "_id_": 280,
+                "_type": "Boolean",
+                "value_": true
+            },
+            "SET_WALLPAPER_HINTS": {
+                "_id_": 279,
+                "_type": "Boolean",
+                "value_": true
+            },
+            "WRITE_EXTERNAL_STORAGE": {
+                "_id_": 282,
+                "_type": "Boolean",
+                "value_": true
+            },
+            "INSTALL_SHORTCUT": {
+                "_id_": 277,
+                "_type": "Boolean",
+                "value_": true
+            },
+            "INTERNET": {
+                "_id_": 278,
+                "_type": "Boolean",
+                "value_": true
+            },
+            "READ_EXTERNAL_STORAGE": {
+                "_id_": 281,
+                "_type": "Boolean",
+                "value_": true
+            }
+        },
+        "usesClearTextTraffic": {
+            "_id_": 299,
+            "_type": "Boolean",
+            "value_": true
         },
         "packageName": {
             "_id_": 58,
